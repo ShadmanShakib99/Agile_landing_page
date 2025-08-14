@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agile - Your Best Project Management Tool</title>
+    <link rel="stylesheet" href="lnding.css">
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <a href="#" class="logo">Agile<span>.</span></a>
+            <div class="cta-buttons">
+                <a href="#" class="signup-btn">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Speed up your team's work</h1>
+                    <p>Agile makes it easy for your team to plan, work, and collaborate. Complete every project successfully with our powerful and visual platform.</p>
+                    <div class="hero-cta">
+                        <input type="email" placeholder="Enter your email">
+                        <button>Get started for free</button>
+                    </div>
+                </div>
+                <div class="hero-animation">
+                    <div class="kanban-board" id="board-container">
+                        <div class="kanban-column" id="col-todo">
+                            <div class="column-title">TO DO</div>
+                            <div class="card-container">
+                                <div class="kanban-card static-card" id="card1">
+                                    <div class="card-tag tag-features">Features</div>
+                                    <div class="card-title">New user profile design</div>
+                                    <div class="card-footer">
+                                        <div class="card-type">Story</div>
+                                        <div class="card-avatar" style="background-color: var(--yellow);">S</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kanban-column" id="col-inprogress">
+                            <div class="column-title">IN PROGRESS</div>
+                             <div class="card-container">
+                                <!-- Animated card will be placed here by JS -->
+                             </div>
+                        </div>
+                        <div class="kanban-column" id="col-done">
+                            <div class="column-title">DONE</div>
+                             <div class="card-container">
+                                <div class="kanban-card static-card" id="card2">
+                                    <div class="card-tag tag-analytics">Analytics</div>
+                                    <div class="card-title">Advanced Tracking Events</div>
+                                    <div class="card-footer">
+                                        <div class="card-type">Story</div>
+                                        <div class="card-avatar" style="background-color: var(--green);">M</div>
+                                    </div>
+                                </div>
+                                <div class="kanban-card static-card" id="card3">
+                                    <div class="card-tag tag-payments">Design</div>
+                                    <div class="card-title">Improving profile design</div>
+                                    <div class="card-footer">
+                                        <div class="card-type">Bug</div>
+                                        <div class="card-avatar" style="background-color: var(--primary-blue);">T</div>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- This is the template for the animated card -->
+    <template id="animated-card-template">
+        <div class="kanban-card" id="animated-card">
+            <div class="card-tag tag-features">Features</div>
+            <div class="card-title" id="animated-title-wrapper">
+                <span id="animated-title"></span>
+            </div>
+            <div class="card-footer">
+                <div class="card-type">Story</div>
+                <div class="card-avatar" style="background-color: var(--red);">D</div>
+            </div>
+        </div>
+    </template>
+
+    <!-- JavaScript link -->
+    <script src="landing.js"></script>
+
+</body>
+</html>
