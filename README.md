@@ -41,14 +41,14 @@ Below are the key features of our Agile Management Tool, as showcased on this la
 
 ---
 
-## 📸 স্ক্রিনশট
+## 📸 Screenshots
 
-(এখানে আপনার অ্যাপ্লিকেশনের কিছু সুন্দর স্ক্রিনশট যোগ করতে পারেন। এটি আপনার প্রোজেক্টকে আরও আকর্ষণীয় করে তুলবে।)
+(You can add some nice screenshots of your application here. This will make your project more attractive.)
 
-![Log In Page Screenshot](screenshorts/login-page.png)
-![Sign Up Page Screenshort](screenshorts/SignUp-page.png)
-![Kanban Board Screenshot](screenshorts/Kanban_board)
-![Task Window Screenshort](screenshorts/screenshots/task_window.png)
+![Log In Page Screenshot](screenshots/login-page.png)
+![Sign Up Page Screenshot](screenshots/signup-page.png)
+![Kanban Board Screenshot](screenshots/kanban-board.png)
+![Task Window Screenshot](screenshots/task-window.png)
 ---
 
 ## 🛠️ Technology Stack
